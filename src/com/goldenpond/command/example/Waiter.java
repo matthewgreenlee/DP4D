@@ -1,4 +1,4 @@
-package com.goldenpond.command2.example;
+package com.goldenpond.command.example;
 
 import java.util.Collection;
 import java.util.HashSet;

@@ -1,4 +1,4 @@
-package com.goldenpond.command2;
+package com.goldenpond.command;
 
 public class ConcreteCommand implements Command {
 

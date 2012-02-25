@@ -1,4 +1,4 @@
-package com.goldenpond.command2.application;
+package com.goldenpond.command.application;
 
 import com.goldenpond.utils.Print;
 

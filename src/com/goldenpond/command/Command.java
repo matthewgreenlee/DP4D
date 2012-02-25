@@ -1,4 +1,4 @@
-package com.goldenpond.command2;
+package com.goldenpond.command;
 
 public interface Command {
 	

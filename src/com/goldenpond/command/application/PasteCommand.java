@@ -1,4 +1,4 @@
-package com.goldenpond.command2.application;
+package com.goldenpond.command.application;
 
 public class PasteCommand implements Command {
 
