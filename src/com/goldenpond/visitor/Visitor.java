@@ -1,6 +1,6 @@
 package com.goldenpond.visitor;
 
-public abstract class Visitor {
+public interface Visitor {
 
 	public abstract void visit(ElementA element);
 

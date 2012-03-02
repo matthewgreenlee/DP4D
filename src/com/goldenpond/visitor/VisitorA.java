@@ -2,7 +2,7 @@ package com.goldenpond.visitor;
 
 import com.goldenpond.utils.Print;
 
-public class VisitorA extends Visitor {
+public class VisitorA implements Visitor {
 
 	@Override
 	public void visit(ElementA element) {
