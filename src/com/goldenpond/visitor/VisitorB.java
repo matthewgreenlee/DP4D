@@ -2,16 +2,10 @@ package com.goldenpond.visitor;
 
 import com.goldenpond.utils.Print;
 
-public class VisitorB implements Visitor {
+public class VisitorB extends ReflectiveVisitor {
 
-	@Override
-	public void visit(ElementA element) {
+	public void visitElementA(ElementA element) {
 		Print.ln("VisitorB visits ElementA " + element.toString());
-	}
-
-	@Override
-	public void visit(ElementB element) {
-		Print.ln("VisitorB visits ElementB " + element.toString());
 	}
 
 }
